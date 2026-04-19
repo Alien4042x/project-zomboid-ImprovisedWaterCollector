@@ -1,0 +1,17 @@
+{
+    "Base.Mov_IWC_RecycleBin": "Recycle Bin",
+    "Base.Mov_IWC_GrayGarbageBin": "Gray Garbage Bin",
+    "Base.Mov_IWC_BinRound": "Round Bin",
+    "Base.Mov_IWC_PublicGarbageBin": "Public Garbage Bin",
+    "Base.Mov_IWC_GreenGarbageBin": "Green Garbage Bin",
+    "Base.trashcontainer_01_16": "Recycle Bin",
+    "Base.trashcontainer_01_17": "Green Garbage Bin",
+    "Base.trashcontainer_01_18": "Gray Garbage Bin",
+    "Base.trashcontainer_01_20": "Round Bin",
+    "Base.trashcontainer_01_21": "Public Garbage Bin",
+    "Moveables.trashcontainers_01_16": "Recycle Bin",
+    "Moveables.trashcontainers_01_17": "Green Garbage Bin",
+    "Moveables.trashcontainers_01_18": "Gray Garbage Bin",
+    "Moveables.trashcontainers_01_20": "Round Bin",
+    "Moveables.trashcontainers_01_21": "Public Garbage Bin"
+}

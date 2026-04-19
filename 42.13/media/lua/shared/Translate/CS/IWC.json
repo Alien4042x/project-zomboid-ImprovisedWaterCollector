@@ -1,0 +1,9 @@
+{
+    "IWC_WheelieCollector_Name": "Improvizovaný sběrač vody (kolečková popelnice)",
+    "IWC_PublicBinCollector_Name": "Improvizovaný sběrač vody (uliční koš)",
+    "RoundBinCollector": "Sběrač vody z kulaté popelnice",
+    "RecycleBinCollector": "Sběrač vody z recyklační popelnice",
+    "GrayBinCollector": "Sběrač vody ze šedé popelnice",
+    "PublicBinCollector": "Sběrač vody z veřejné popelnice",
+    "GreenBinCollector": "Sběrač vody ze zelené popelnice"
+}

@@ -1,0 +1,7 @@
+{
+    "RoundBinCollector": "Sběrač vody z kulaté popelnice",
+    "RecycleBinCollector": "Sběrač vody z recyklační popelnice",
+    "GrayBinCollector": "Sběrač vody ze šedé popelnice",
+    "PublicBinCollector": "Sběrač vody z veřejné popelnice",
+    "GreenBinCollector": "Sběrač vody ze zelené popelnice"
+}

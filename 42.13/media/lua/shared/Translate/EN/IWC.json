@@ -1,0 +1,9 @@
+{
+    "IWC_WheelieCollector_Name": "Improvised Water Collector (Wheelie Bin)",
+    "IWC_PublicBinCollector_Name": "Improvised Water Collector (Street Bin)",
+    "RoundBinCollector": "Round Bin Collector",
+    "RecycleBinCollector": "Recycle Bin Collector",
+    "GrayBinCollector": "Gray Bin Collector",
+    "PublicBinCollector": "Public Bin Collector",
+    "GreenBinCollector": "Green Bin Collector"
+}

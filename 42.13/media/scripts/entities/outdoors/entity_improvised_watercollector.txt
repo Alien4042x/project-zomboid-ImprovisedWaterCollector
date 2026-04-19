@@ -1,0 +1,229 @@
+module ImprovisedWaterCollector
+{
+
+    entity RecycleBinCollector
+    {
+        component UiConfig
+        {
+            xuiSkin = default,
+            entityStyle = ES_RecycleBinCollector,
+            uiEnabled = false,
+        }
+        component FluidContainer
+        {
+            ContainerName = Collector,
+            Capacity = 35.0,
+            RainFactor = 0.45,
+            InitialPercentMin = 0.0,
+            InitialPercentMax = 0.0,
+        }
+        component SpriteConfig
+        {
+            face S
+            {
+                layer
+                {
+                    row = IWC_bins_01_0,
+                }
+            }
+        }
+        component CraftRecipe
+        {
+            timedAction = BuildWoodenStructureMedium,
+            time = 300,
+            category = Outdoors,
+            Tags = Carpentry,
+            OnTest = IWCRecipeCode.isAllowedCollectorIngredient,
+            SkillRequired = Woodwork:0,
+            xpAward = Woodwork:8,
+            Tooltip = Tooltip_craft_rainCollectorDesc,
+            inputs
+            {
+                item 1 [Base.Mov_RecycleBin],
+                item 1 tags[base:garbagebag],
+                item 1 [Base.Rope;Base.SheetRope;Base.Twine;Base.DuctTape],
+            }
+        }
+    }
+
+    entity GrayBinCollector
+    {
+        component UiConfig
+        {
+            xuiSkin = default,
+            entityStyle = ES_GrayBinCollector,
+            uiEnabled = false,
+        }
+        component FluidContainer
+        {
+            ContainerName = Collector,
+            Capacity = 35.0,
+            RainFactor = 0.45,
+            InitialPercentMin = 0.0,
+            InitialPercentMax = 0.0,
+        }
+        component SpriteConfig
+        {
+            face S
+            {
+                layer
+                {
+                    row = IWC_bins_01_1,
+                }
+            }
+        }
+        component CraftRecipe
+        {
+            timedAction = BuildWoodenStructureMedium,
+            time = 300,
+            category = Outdoors,
+            Tags = Carpentry,
+            OnTest = IWCRecipeCode.isAllowedCollectorIngredient,
+            SkillRequired = Woodwork:0,
+            xpAward = Woodwork:8,
+            Tooltip = Tooltip_craft_rainCollectorDesc,
+            inputs
+            {
+                item 1 [Base.Mov_GrayGarbageBin],
+                item 1 tags[base:garbagebag],
+                item 1 [Base.Rope;Base.SheetRope;Base.Twine;Base.DuctTape],
+            }
+        }
+    }
+
+    entity RoundBinCollector
+    {
+        component UiConfig
+        {
+            xuiSkin = default,
+            entityStyle = ES_RoundBinCollector,
+            uiEnabled = false,
+        }
+        component FluidContainer
+        {
+            ContainerName = Collector,
+            Capacity = 15.0,
+            RainFactor = 0.45,
+            InitialPercentMin = 0.0,
+            InitialPercentMax = 0.0,
+        }
+        component SpriteConfig
+        {
+            face S
+            {
+                layer
+                {
+                    row = IWC_bins_01_2,
+                }
+            }
+        }
+        component CraftRecipe
+        {
+            timedAction = BuildWoodenStructureMedium,
+            time = 300,
+            category = Outdoors,
+            Tags = Carpentry,
+            OnTest = IWCRecipeCode.isAllowedCollectorIngredient,
+            SkillRequired = Woodwork:0,
+            xpAward = Woodwork:8,
+            Tooltip = Tooltip_craft_rainCollectorDesc,
+            inputs
+            {
+                item 1 [Base.Mov_BinRound],
+                item 1 tags[base:garbagebag],
+                item 1 [Base.Rope;Base.SheetRope;Base.Twine;Base.DuctTape],
+            }
+        }
+    }
+
+    entity PublicBinCollector
+    {
+        component UiConfig
+        {
+            xuiSkin = default,
+            entityStyle = ES_PublicBinCollector,
+            uiEnabled = false,
+        }
+        component FluidContainer
+        {
+            ContainerName = Collector,
+            Capacity = 35.0,
+            RainFactor = 0.45,
+            InitialPercentMin = 0.0,
+            InitialPercentMax = 0.0,
+        }
+        component SpriteConfig
+        {
+            face S
+            {
+                layer
+                {
+                    row = IWC_bins_01_3,
+                }
+            }
+        }
+        component CraftRecipe
+        {
+            timedAction = Welding,
+            time = 900,
+            category = Outdoors,
+            Tags = Carpentry,
+            OnTest = IWCRecipeCode.isAllowedCollectorIngredient,
+            SkillRequired = Woodwork:0,
+            xpAward = Woodwork:8,
+            Tooltip = Tooltip_craft_rainCollectorDesc,
+            inputs
+            {
+                item 1 [Base.Mov_PublicGarbageBin],
+                item 1 tags[base:garbagebag],
+                item 1 [Base.Rope;Base.SheetRope;Base.Twine;Base.DuctTape],
+                item 1 [Base.BlowTorch] mode:keep,
+            }
+        }
+    }
+
+    entity GreenBinCollector
+    {
+        component UiConfig
+        {
+            xuiSkin = default,
+            entityStyle = ES_GreenBinCollector,
+            uiEnabled = false,
+        }
+        component FluidContainer
+        {
+            ContainerName = Collector,
+            Capacity = 35.0,
+            RainFactor = 0.45,
+            InitialPercentMin = 0.0,
+            InitialPercentMax = 0.0,
+        }
+        component SpriteConfig
+        {
+            face S
+            {
+                layer
+                {
+                    row = IWC_bins_01_4,
+                }
+            }
+        }
+        component CraftRecipe
+        {
+            timedAction = BuildWoodenStructureMedium,
+            time = 300,
+            category = Outdoors,
+            Tags = Carpentry,
+            OnTest = IWCRecipeCode.isAllowedCollectorIngredient,
+            SkillRequired = Woodwork:0,
+            xpAward = Woodwork:8,
+            Tooltip = Tooltip_craft_rainCollectorDesc,
+            inputs
+            {
+                item 1 [Base.Mov_GreenGarbageBin],
+                item 1 tags[base:garbagebag],
+                item 1 [Base.Rope;Base.SheetRope;Base.Twine;Base.DuctTape],
+            }
+        }
+    }
+}

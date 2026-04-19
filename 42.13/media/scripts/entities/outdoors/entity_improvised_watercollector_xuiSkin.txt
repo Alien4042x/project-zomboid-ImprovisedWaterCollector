@@ -1,0 +1,36 @@
+module Base
+{
+    xuiSkin default
+    {
+        entity ES_RecycleBinCollector
+        {
+            LuaWindowClass = ISEntityTabWindow,
+            DisplayName = RecycleBinCollector,
+            Icon = Item_IWC_Bin_Recycle,
+        }
+        entity ES_GrayBinCollector
+        {
+            LuaWindowClass = ISEntityTabWindow,
+            DisplayName = GrayBinCollector,
+            Icon = Item_IWC_Bin_Gray,
+        }
+        entity ES_RoundBinCollector
+        {
+            LuaWindowClass = ISEntityTabWindow,
+            DisplayName = RoundBinCollector,
+            Icon = Item_IWC_Bin_Round,
+        }
+        entity ES_PublicBinCollector
+        {
+            LuaWindowClass = ISEntityTabWindow,
+            DisplayName = PublicBinCollector,
+            Icon = Item_IWC_Bin_Public,
+        }
+        entity ES_GreenBinCollector
+        {
+            LuaWindowClass = ISEntityTabWindow,
+            DisplayName = GreenBinCollector,
+            Icon = Item_IWC_Bin_Green,
+        }
+    }
+}

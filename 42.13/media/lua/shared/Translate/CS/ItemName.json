@@ -1,0 +1,17 @@
+{
+    "Base.Mov_IWC_RecycleBin": "Popelnice na recyklaci",
+    "Base.Mov_IWC_GrayGarbageBin": "Šedá popelnice",
+    "Base.Mov_IWC_BinRound": "Kulatá popelnice",
+    "Base.Mov_IWC_PublicGarbageBin": "Veřejný odpadkový koš",
+    "Base.Mov_IWC_GreenGarbageBin": "Zelená popelnice",
+    "Base.trashcontainer_01_16": "Popelnice na recyklaci",
+    "Base.trashcontainer_01_17": "Zelená popelnice",
+    "Base.trashcontainer_01_18": "Šedá popelnice",
+    "Base.trashcontainer_01_20": "Kulatá popelnice",
+    "Base.trashcontainer_01_21": "Veřejný odpadkový koš",
+    "Moveables.trashcontainers_01_16": "Popelnice na recyklaci",
+    "Moveables.trashcontainers_01_17": "Zelená popelnice",
+    "Moveables.trashcontainers_01_18": "Šedá popelnice",
+    "Moveables.trashcontainers_01_20": "Kulatá popelnice",
+    "Moveables.trashcontainers_01_21": "Veřejný odpadkový koš"
+}

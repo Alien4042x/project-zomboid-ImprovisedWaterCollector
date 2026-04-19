@@ -1,0 +1,27 @@
+module Base
+{
+    item Mov_BinRound
+    {
+        Icon = IWC_Bin_Round,
+    }
+
+    item Mov_GreenGarbageBin
+    {
+        Icon = IWC_Bin_Green,
+    }
+
+    item Mov_GrayGarbageBin
+    {
+        Icon = IWC_Bin_Gray,
+    }
+
+    item Mov_PublicGarbageBin
+    {
+        Icon = IWC_Bin_Public,
+    }
+
+    item Mov_RecycleBin
+    {
+        Icon = IWC_Bin_Recycle,
+    }
+}
