@@ -3,3 +3,5 @@ id=ImprovisedWaterCollector
 description=Build 42 mod adding improvised garbage-bin rain collectors for tainted water.
 poster=poster.png
 author=alien4042x
+category=survival
+versionMin=42.13.0
