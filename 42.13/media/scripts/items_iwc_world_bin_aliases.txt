@@ -1,0 +1,52 @@
+module Base
+{
+    item trashcontainers_01_16
+    {
+        DisplayCategory = Furniture,
+        ItemType = base:moveable,
+        DisplayName = Recycle Bin,
+        Icon = IWC_Bin_Recycle,
+        Weight = 0.5,
+        WorldObjectSprite = trashcontainers_01_16,
+    }
+
+    item trashcontainers_01_18
+    {
+        DisplayCategory = Furniture,
+        ItemType = base:moveable,
+        DisplayName = Gray Garbage Bin,
+        Icon = IWC_Bin_Gray,
+        Weight = 0.5,
+        WorldObjectSprite = trashcontainers_01_18,
+    }
+
+    item trashcontainers_01_19
+    {
+        DisplayCategory = Furniture,
+        ItemType = base:moveable,
+        DisplayName = Gray Garbage Bin,
+        Icon = IWC_Bin_Gray,
+        Weight = 0.5,
+        WorldObjectSprite = trashcontainers_01_19,
+    }
+
+    item trashcontainers_01_20
+    {
+        DisplayCategory = Furniture,
+        ItemType = base:moveable,
+        DisplayName = Round Bin,
+        Icon = IWC_Bin_Round,
+        Weight = 0.5,
+        WorldObjectSprite = trashcontainers_01_20,
+    }
+
+    item trashcontainers_01_21
+    {
+        DisplayCategory = Furniture,
+        ItemType = base:moveable,
+        DisplayName = Public Garbage Bin,
+        Icon = IWC_Bin_Public,
+        Weight = 0.5,
+        WorldObjectSprite = trashcontainers_01_21,
+    }
+}

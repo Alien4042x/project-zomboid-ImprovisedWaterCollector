@@ -33,13 +33,13 @@ module ImprovisedWaterCollector
             time = 300,
             category = Outdoors,
             Tags = Carpentry,
-            OnTest = IWCRecipeCode.isAllowedCollectorIngredient,
+            OnTest = IWCRecipeCode.isRecycleBinIngredient,
             SkillRequired = Woodwork:0,
             xpAward = Woodwork:8,
             Tooltip = Tooltip_craft_rainCollectorDesc,
             inputs
             {
-                item 1 [Base.Mov_RecycleBin],
+                item 1 [Base.Mov_RecycleBin;Base.trashcontainers_01_16;Base.Moveable],
                 item 1 tags[base:garbagebag],
                 item 1 [Base.Rope;Base.SheetRope;Base.Twine;Base.DuctTape],
             }
@@ -78,13 +78,13 @@ module ImprovisedWaterCollector
             time = 300,
             category = Outdoors,
             Tags = Carpentry,
-            OnTest = IWCRecipeCode.isAllowedCollectorIngredient,
+            OnTest = IWCRecipeCode.isGrayBinIngredient,
             SkillRequired = Woodwork:0,
             xpAward = Woodwork:8,
             Tooltip = Tooltip_craft_rainCollectorDesc,
             inputs
             {
-                item 1 [Base.Mov_GrayGarbageBin],
+                item 1 [Base.Mov_GrayGarbageBin;Base.trashcontainers_01_18;Base.trashcontainers_01_19;Base.Moveable],
                 item 1 tags[base:garbagebag],
                 item 1 [Base.Rope;Base.SheetRope;Base.Twine;Base.DuctTape],
             }
@@ -123,13 +123,13 @@ module ImprovisedWaterCollector
             time = 300,
             category = Outdoors,
             Tags = Carpentry,
-            OnTest = IWCRecipeCode.isAllowedCollectorIngredient,
+            OnTest = IWCRecipeCode.isRoundBinIngredient,
             SkillRequired = Woodwork:0,
             xpAward = Woodwork:8,
             Tooltip = Tooltip_craft_rainCollectorDesc,
             inputs
             {
-                item 1 [Base.Mov_BinRound],
+                item 1 [Base.Mov_BinRound;Base.trashcontainers_01_20;Base.Moveable],
                 item 1 tags[base:garbagebag],
                 item 1 [Base.Rope;Base.SheetRope;Base.Twine;Base.DuctTape],
             }
@@ -168,13 +168,13 @@ module ImprovisedWaterCollector
             time = 900,
             category = Outdoors,
             Tags = Carpentry,
-            OnTest = IWCRecipeCode.isAllowedCollectorIngredient,
+            OnTest = IWCRecipeCode.isPublicBinIngredient,
             SkillRequired = Woodwork:0,
             xpAward = Woodwork:8,
             Tooltip = Tooltip_craft_rainCollectorDesc,
             inputs
             {
-                item 1 [Base.Mov_PublicGarbageBin],
+                item 1 [Base.Mov_PublicGarbageBin;Base.trashcontainers_01_21;Base.Moveable],
                 item 1 tags[base:garbagebag],
                 item 1 [Base.Rope;Base.SheetRope;Base.Twine;Base.DuctTape],
                 item 1 [Base.BlowTorch] mode:keep,
@@ -214,13 +214,13 @@ module ImprovisedWaterCollector
             time = 300,
             category = Outdoors,
             Tags = Carpentry,
-            OnTest = IWCRecipeCode.isAllowedCollectorIngredient,
+            OnTest = IWCRecipeCode.isGreenBinIngredient,
             SkillRequired = Woodwork:0,
             xpAward = Woodwork:8,
             Tooltip = Tooltip_craft_rainCollectorDesc,
             inputs
             {
-                item 1 [Base.Mov_GreenGarbageBin],
+                item 1 [Base.Mov_GreenGarbageBin;Base.Moveable],
                 item 1 tags[base:garbagebag],
                 item 1 [Base.Rope;Base.SheetRope;Base.Twine;Base.DuctTape],
             }
