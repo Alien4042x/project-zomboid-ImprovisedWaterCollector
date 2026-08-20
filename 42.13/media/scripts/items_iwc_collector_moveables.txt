@@ -1,0 +1,52 @@
+module Base
+{
+    item Mov_IWC_RecycleBin
+    {
+        DisplayCategory = Furniture,
+        ItemType = base:moveable,
+        DisplayName = Recycle Bin Water Collector,
+        Icon = IWC_Bin_Recycle,
+        Weight = 10.0,
+        WorldObjectSprite = IWC_bins_01_0,
+    }
+
+    item Mov_IWC_GrayGarbageBin
+    {
+        DisplayCategory = Furniture,
+        ItemType = base:moveable,
+        DisplayName = Gray Bin Water Collector,
+        Icon = IWC_Bin_Gray,
+        Weight = 10.0,
+        WorldObjectSprite = IWC_bins_01_1,
+    }
+
+    item Mov_IWC_BinRound
+    {
+        DisplayCategory = Furniture,
+        ItemType = base:moveable,
+        DisplayName = Round Bin Water Collector,
+        Icon = IWC_Bin_Round,
+        Weight = 10.0,
+        WorldObjectSprite = IWC_bins_01_2,
+    }
+
+    item Mov_IWC_PublicGarbageBin
+    {
+        DisplayCategory = Furniture,
+        ItemType = base:moveable,
+        DisplayName = Public Bin Water Collector,
+        Icon = IWC_Bin_Public,
+        Weight = 10.0,
+        WorldObjectSprite = IWC_bins_01_3,
+    }
+
+    item Mov_IWC_GreenGarbageBin
+    {
+        DisplayCategory = Furniture,
+        ItemType = base:moveable,
+        DisplayName = Green Bin Water Collector,
+        Icon = IWC_Bin_Green,
+        Weight = 10.0,
+        WorldObjectSprite = IWC_bins_01_4,
+    }
+}

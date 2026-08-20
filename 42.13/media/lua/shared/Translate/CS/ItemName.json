@@ -3,5 +3,10 @@
     "Base.Mov_GreenGarbageBin": "Zelená popelnice",
     "Base.Mov_GrayGarbageBin": "Šedá popelnice",
     "Base.Mov_BinRound": "Kulatá popelnice",
-    "Base.Mov_PublicGarbageBin": "Veřejný odpadkový koš"
+    "Base.Mov_PublicGarbageBin": "Veřejný odpadkový koš",
+    "Base.Mov_IWC_RecycleBin": "Sběrač vody z recyklační popelnice",
+    "Base.Mov_IWC_GrayGarbageBin": "Sběrač vody z šedé popelnice",
+    "Base.Mov_IWC_BinRound": "Sběrač vody z kulaté popelnice",
+    "Base.Mov_IWC_PublicGarbageBin": "Sběrač vody z veřejného koše",
+    "Base.Mov_IWC_GreenGarbageBin": "Sběrač vody ze zelené popelnice"
 }

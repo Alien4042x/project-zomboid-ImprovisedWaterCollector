@@ -15,7 +15,7 @@ Improvised Water Collector mod for Project Zomboid (Build 42 beta).
 
 ## Requirements
 
-- Project Zomboid Build 42 beta (tested on 42.13).
+- Project Zomboid Build 42.20.3 or newer.
 
 ## Installation (Manual)
 
@@ -28,3 +28,5 @@ Improvised Water Collector mod for Project Zomboid (Build 42 beta).
 
 - This repository contains source assets and scripts used for the mod.
 - The playable mod content is primarily under the `42.13/` folder.
+- Collector tiles have dedicated `Base.Mov_IWC_*` moveable items so completed
+  collectors can be picked up and placed again in singleplayer and multiplayer.
